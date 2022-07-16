@@ -11,3 +11,4 @@ class AuthenticationTestCase(TestCase):
  def test_user_created(self):
        user = User.objects.filter(username='testuser')
        self.assertTrue(user.exists())
+
